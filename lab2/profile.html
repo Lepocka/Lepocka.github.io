@@ -6,6 +6,7 @@
     <title>Мій профіль</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/profile.css">
+    <script defer src="js/script.js"></script>
 </head>
 <body>
     <header><h1>Мій профіль</h1></header>
@@ -19,8 +20,13 @@
     <main class="profile-container">
         <section class="profile-header">
             <img src="images/useravatar.png" alt="Аватар користувача">
-            <h2>Player_123</h2>
+            <h2 id="username">Player_123</h2>
             <p>🌟 Ранг: Легенда</p>
+            <h3>Прогрес до наступної нагороди</h3>
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+            <p id="progress-text">70% до наступної нагороди</p>
         </section>
         
         <section class="profile-info">

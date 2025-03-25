@@ -5,6 +5,11 @@
     margin-top: 20px;
 }
 
+.game-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(255, 204, 0, 0.5);
+}
+
 .game-card {
     background: rgba(255, 255, 255, 0.1);
     padding: 20px;
@@ -14,9 +19,24 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.game-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(255, 204, 0, 0.5);
+.game-card.favorite {
+    border: 3px solid red;
+    transform: scale(1.1);
+}
+
+.fav-btn {
+    background: #ffcc00;
+    color: #222;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.fav-btn:hover {
+    background: #ffaa00;
 }
 
 .game-card img {
