@@ -17,6 +17,5 @@ document.addEventListener("DOMContentLoaded", function () {
         step();
     }
 
-    // 🔢 Наприклад, користувач пройшов 6 з 10 ігор
     animateProgressBar(8.9, 10);
 });
